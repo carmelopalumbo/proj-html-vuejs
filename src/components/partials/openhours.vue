@@ -6,8 +6,8 @@ export default {
 
 <template>
   <div class="openhours">
-    <div class="container">
-      <div class="row d-flex justify-content-between pt-2">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-between align-items-center h-100">
         <div class="col">
           <i class="fa-solid fa-clock"></i>
           <span class="ms-2">Open Hours: Mon - Sat - 9:00 - 18:00</span>
@@ -28,7 +28,6 @@ export default {
 
 <style lang="scss" scoped>
 @use "../../style/partials/palette" as *;
-@use "../../style/partials/vars" as *;
 .openhours {
   height: 50px;
   background-color: darken($smaltblue, 15);

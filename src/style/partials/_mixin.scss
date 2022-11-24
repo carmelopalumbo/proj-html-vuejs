@@ -1,0 +1,23 @@
+@use "./palette" as *;
+
+@mixin button($fill){
+    @if($fill){
+        background-color: $bluelagoon;
+        border: none;
+        &:hover {
+            background-color: lighten($bluelagoon, 10%);
+      }
+    }
+    @else{
+        background-color: transparent;
+        border: 1px solid $bluelagoon;
+        &:hover {
+            color: $bluelagoon;
+            border: 1px solid darken($bluelagoon, 10%);
+      }
+    }
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 4px;
+    
+}
