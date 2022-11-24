@@ -1,9 +1,21 @@
 <script>
+import openhours from "./partials/openhours.vue";
+import menujumbo from "./partials/menujumbo.vue";
+
 export default {
-  name: "App",
+  name: "AppHeader",
+  components: {
+    openhours,
+    menujumbo,
+  },
 };
 </script>
 
-<template></template>
+<template>
+  <header>
+    <openhours />
+    <menujumbo />
+  </header>
+</template>
 
-<style></style>
+<style lang="scss" scoped></style>

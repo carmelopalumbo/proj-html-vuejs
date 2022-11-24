@@ -1,9 +1,13 @@
-@use './partials/vars' as *;
+@use './partials/vars' as *; //vars
+
+//font
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/@fontsource/lato/100.css';
 @import 'node_modules/@fontsource/lato/300.css';
 @import 'node_modules/@fontsource/lato/400.css';
 @import 'node_modules/@fontsource/lato/700.css';
 @import 'node_modules/@fontsource/lato/900.css';
+
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css'; //font awesome
 
 body { font-family: "Lato", sans-serif; }
