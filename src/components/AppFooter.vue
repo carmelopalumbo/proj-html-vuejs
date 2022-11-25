@@ -4,6 +4,12 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <footer></footer>
+</template>
 
-<style></style>
+<style lang="scss" scoped>
+footer {
+  height: 1000px; //rimuovere!!
+}
+</style>
