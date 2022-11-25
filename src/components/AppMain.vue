@@ -5,7 +5,7 @@ import services from "./partials/services.vue";
 import team from "./partials/team.vue";
 import news from "./partials/news.vue";
 import knowfirst from "./partials/knowfirst.vue";
-import form from "./partials/form.vue";
+import forms from "./partials/forms.vue";
 
 export default {
   name: "AppMain",
@@ -16,7 +16,7 @@ export default {
     team,
     news,
     knowfirst,
-    form,
+    forms,
   },
 };
 </script>
@@ -28,7 +28,7 @@ export default {
   <team />
   <news />
   <knowfirst />
-  <form />
+  <forms />
 </template>
 
 <style></style>

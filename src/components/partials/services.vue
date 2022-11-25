@@ -1,5 +1,5 @@
 <script>
-import cards from "./cards.vue";
+import servicecards from "./servicecards.vue";
 import { store } from "../../data/store";
 
 export default {
@@ -10,7 +10,7 @@ export default {
     };
   },
   components: {
-    cards,
+    servicecards,
   },
 };
 </script>
@@ -45,7 +45,7 @@ export default {
           v-for="(card, index) in store.services"
           :key="index"
         >
-          <cards :card="card" />
+          <servicecards :card="card" />
         </div>
       </div>
     </div>
@@ -72,7 +72,6 @@ export default {
       font-weight: 900;
       strong {
         position: relative;
-        display: inline-block;
         padding: 2px 10px;
         &::before {
           @include background-opacity();

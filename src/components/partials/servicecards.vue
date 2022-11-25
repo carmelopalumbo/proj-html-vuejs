@@ -2,7 +2,7 @@
 import { getPathImage } from "../../data/functions";
 
 export default {
-  name: "cards",
+  name: "servicecards",
   data() {
     return {
       getPathImage,

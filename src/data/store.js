@@ -53,5 +53,28 @@ export const store = reactive({
             title: 'Regulatory Risk',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
+    ],
+
+    team: [
+        {
+            image: 'team-1',
+            name: 'David Cooper',
+            role: 'CTO & CO-FOUNDER'
+        },
+        {
+            image: 'team-3',
+            name: 'Oliver Jones',
+            role: 'CHIEF PROCUREMENT'
+        },
+        {
+            image: 'team-2',
+            name: 'Emma Lopez',
+            role: 'CHIEF MARKETING'
+        },
+        {
+            image: 'team-4',
+            name: 'T. Johnson',
+            role: 'CEO & PRESIDENT'
+        }
     ]
 });
