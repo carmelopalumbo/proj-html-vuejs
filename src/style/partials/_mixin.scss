@@ -21,3 +21,15 @@
     border-radius: 4px;
     
 }
+
+
+@mixin background-opacity{
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: block;
+    left: 0px;
+    opacity: 0.15;
+}

@@ -14,7 +14,7 @@ export default {
 <template>
   <div class="results">
     <div
-      class="container h-100 d-flex align-items-center justify-content-center position-relative flex-column"
+      class="container h-100 d-flex align-items-center justify-content-center position-relative flex-column top-box"
     >
       <div class="row">
         <div class="col text-center">
@@ -42,6 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../../style/partials/palette" as *;
+@use "../../style/partials/mixin" as *;
 .results {
   height: 550px;
   position: relative;
@@ -73,15 +74,8 @@ export default {
         color: white;
         padding: 2px 10px;
         &::before {
-          content: "";
-          height: 100%;
+          @include background-opacity();
           background-color: $bluelagoon;
-          position: absolute;
-          top: 0px;
-          width: 100%;
-          display: block;
-          left: 0px;
-          opacity: 0.15;
         }
       }
     }
