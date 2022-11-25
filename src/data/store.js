@@ -24,32 +24,32 @@ export const store = reactive({
 
     services: [
         {
-            icon: 'pc.svg',
+            icon: 'computer',
             title: 'Audit & Assurance',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
         {
-            icon: 'business.svg',
+            icon: 'business',
             title: 'Financial Advisory',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
         {
-            icon: 'analytics.svg',
+            icon: 'analytics',
             title: 'Analytics and M&A',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
         {
-            icon: 'airplane.svg',
+            icon: 'airplane',
             title: 'Middle Marketing',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
         {
-            icon: 'world.svg',
+            icon: 'world',
             title: 'Legal Consulting',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },
         {
-            icon: 'drawer.svg',
+            icon: 'drawer',
             title: 'Regulatory Risk',
             descr: 'Lorem ipsum dolor sit amet consecteur adipiscing ellit.'
         },

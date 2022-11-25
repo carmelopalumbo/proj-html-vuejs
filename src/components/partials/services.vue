@@ -1,6 +1,17 @@
 <script>
+import cards from "./cards.vue";
+import { store } from "../../data/store";
+
 export default {
   name: "services",
+  data() {
+    return {
+      store,
+    };
+  },
+  components: {
+    cards,
+  },
 };
 </script>
 
@@ -8,7 +19,7 @@ export default {
   <div class="services">
     <div class="container h-100 d-flex flex-column justify-content-center">
       <!-- titles -->
-      <div class="row top-box">
+      <div class="row top-box mb-3">
         <div class="col">
           <h6>OUR BUSINESS AREAS</h6>
           <h2 class="py-3">Excellence in <strong>Services</strong></h2>
@@ -21,7 +32,7 @@ export default {
               professionals. These are some options that you can hire.
             </p>
           </div>
-          <div class="col d-inline-block text-center">
+          <div class="col d-inline-block text-end">
             <button class="btn ms-1">SEE ALL</button>
           </div>
         </div>
@@ -29,7 +40,13 @@ export default {
 
       <!-- cards -->
       <div class="row card-box">
-        <h1 class="text-white">TEST</h1>
+        <div
+          class="col-4 my-3"
+          v-for="(card, index) in store.services"
+          :key="index"
+        >
+          <cards :card="card" />
+        </div>
       </div>
     </div>
   </div>
