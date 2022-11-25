@@ -22,6 +22,7 @@ export default {
 </script>
 
 <template>
+  <!-- 7 components on main -->
   <performance />
   <results />
   <services />

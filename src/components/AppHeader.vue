@@ -13,7 +13,10 @@ export default {
 
 <template>
   <header>
+    <!-- header top -->
     <openhours />
+
+    <!-- jumbotron with menu -->
     <menujumbo />
   </header>
 </template>
