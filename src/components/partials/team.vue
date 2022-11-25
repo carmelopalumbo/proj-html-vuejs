@@ -29,7 +29,7 @@ export default {
           </p>
         </div>
         <div
-          class="col-6 my-3"
+          class="col-6 my-4"
           v-for="(card, index) in store.team"
           :key="index"
         >
@@ -37,8 +37,26 @@ export default {
         </div>
       </div>
 
-      <div class="row">
-        <h1>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</h1>
+      <div class="row pres-speech mt-5">
+        <div class="col">
+          <h3 class="pb-4">President Speech</h3>
+          <p class="py-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            provident dolorum quis!
+          </p>
+          <p class="py-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos magnam
+            eum esse! Sapiente odio voluptates, illo fuga libero vero illum?
+          </p>
+          <p class="py-2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+            voluptates aliquid alias. Quidem, sint ea.
+          </p>
+          <div class="d-flex justify-content-between sign-box">
+            <p class="pt-1">T. Johnson</p>
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -73,6 +91,29 @@ export default {
       p {
         font-weight: 100;
         font-size: 1.05rem;
+      }
+    }
+    .pres-speech {
+      color: white;
+      background-color: $surfiegreen;
+      padding: 45px 25px;
+      border-radius: 7px;
+      h3 {
+        font-weight: 900;
+      }
+      p {
+        font-weight: 100;
+      }
+      .sign-box {
+        p {
+          font-weight: 900;
+          font-size: 1.2rem;
+        }
+        i {
+          font-size: 2.5rem;
+          color: darken($surfiegreen, 10%);
+          opacity: 0.7;
+        }
       }
     }
   }
