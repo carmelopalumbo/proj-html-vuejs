@@ -78,15 +78,7 @@ export default {
   .container {
     position: relative;
     .logo {
-      cursor: pointer;
-      font-size: 1.5rem;
-      font-weight: 700;
-      & :first-child {
-        color: $surfiegreen;
-      }
-      & :last-child {
-        color: darken($white, 15%);
-      }
+      @include logo();
     }
 
     .menu {
