@@ -23,7 +23,7 @@ export default {
         <div class="col-auto menu">
           <ul>
             <li v-for="(link, index) in store.menu" :key="index">
-              {{ link }}
+              <a href="#">{{ link }}</a>
             </li>
             <li>
               <a href="#"><i class="fa-regular fa-user mx-3"></i></a>
@@ -95,11 +95,14 @@ export default {
         li {
           display: inline-block;
           padding: 0 20px;
-          font-weight: 700;
-          color: white;
-          cursor: pointer;
-          &:hover {
-            color: darken($white, 20%);
+          a {
+            font-weight: 700;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            &:hover {
+              color: darken($white, 20%);
+            }
           }
         }
       }
