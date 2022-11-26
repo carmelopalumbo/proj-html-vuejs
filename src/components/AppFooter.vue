@@ -1,15 +1,18 @@
 <script>
+import copyright from "./partials/copyright.vue";
+import credits from "./partials/credits.vue";
 export default {
   name: "AppFooter",
+  components: {
+    copyright,
+    credits,
+  },
 };
 </script>
 
 <template>
-  <footer></footer>
+  <credits />
+  <copyright />
 </template>
 
-<style lang="scss" scoped>
-footer {
-  height: 1000px; //rimuovere!!
-}
-</style>
+<style></style>

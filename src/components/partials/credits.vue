@@ -4,6 +4,12 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <div class="credits"></div>
+</template>
 
-<style></style>
+<style lang="scss" scoped>
+.credits {
+  height: 600px;
+}
+</style>

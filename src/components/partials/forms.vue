@@ -85,7 +85,7 @@ export default {
 @use "../../style/partials/mixin" as *;
 
 .forms {
-  height: 800px;
+  height: 700px;
   .container {
     .form-box {
       h6 {
