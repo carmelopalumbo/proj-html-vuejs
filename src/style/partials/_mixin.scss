@@ -55,3 +55,14 @@
         padding-top: 3px;
       }
 }
+
+@mixin icons{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s all;
+  padding: 9px;
+  // to add color, background color and background color at hover
+}

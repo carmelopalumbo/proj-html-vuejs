@@ -41,6 +41,8 @@ export default {
 
 <style lang="scss" scoped>
 @use "../../style/partials/palette" as *;
+@use "../../style/partials/mixin" as *;
+
 .teamcard {
   .card-container {
     display: flex;
@@ -64,14 +66,9 @@ export default {
       margin: 0;
     }
     i {
-      width: 35px;
-      height: 35px;
-      border-radius: 50%;
-      text-align: center;
-      cursor: pointer;
+      @include icons();
       color: darken($surfiegreen, 10%);
       background-color: lighten($surfiegreen, 60%);
-      transition: 0.3s all;
       &:hover {
         background-color: lighten($surfiegreen, 30%);
       }

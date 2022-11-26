@@ -92,8 +92,9 @@ export default {
             text-decoration: none;
             color: white;
             cursor: pointer;
+            transition: 0.3s all;
             &:hover {
-              color: darken($white, 20%);
+              color: $bluelagoon;
             }
           }
         }
