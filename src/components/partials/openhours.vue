@@ -29,6 +29,11 @@ export default {
 <style lang="scss" scoped>
 @use "../../style/partials/palette" as *;
 .openhours {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
   height: 50px;
   background-color: darken($smaltblue, 15);
   color: lighten($smaltblue, 35%);
