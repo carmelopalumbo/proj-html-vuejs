@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="copyright">
-    <div class="container h-100">
+    <div class="container h-100 pt-2">
       <div class="row justify-content-between d-flex h-100 align-items-center">
         <div class="col">
           <p>Enjoy the low price. We are tracking any intention of piracy.</p>
