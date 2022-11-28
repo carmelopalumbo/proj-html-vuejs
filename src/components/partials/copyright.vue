@@ -31,6 +31,7 @@ export default {
     p {
       color: darken($white, 15%);
       font-size: 0.85rem;
+      cursor: default;
       strong {
         color: $surfiegreen;
         cursor: pointer;

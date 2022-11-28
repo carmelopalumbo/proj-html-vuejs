@@ -47,7 +47,7 @@ export default {
         <!-- about -->
         <div class="col">
           <h4>About</h4>
-          <ul class="py-4">
+          <ul class="py-2">
             <li
               class="py-1"
               v-for="(link, index) in store.footerMenu.about"
@@ -105,42 +105,49 @@ export default {
       @include button($fill: false);
       color: white;
     }
+
+    span {
+      cursor: pointer;
+    }
   }
 
   .footer-menu {
     .col {
       position: relative;
-      margin: 20px;
-      padding-left: 40px;
+      margin: 0 20px;
+      padding: 30px 0;
       &::before {
         @include background-opacity();
         background-color: lighten($woodsmoke, 50%);
         opacity: 0.05;
-        border-radius: 15px;
+        border-radius: 8px;
       }
     }
     h4 {
       font-weight: 700;
+      margin-left: 55px;
+      position: relative;
+      cursor: default;
       color: white;
     }
     ul {
       list-style: none;
-      padding: 0;
+      margin: 20px;
       li {
-        transition: 0.4s all;
         position: relative;
         a {
           text-decoration: none;
           color: white;
           font-weight: 100;
+          transition: 0.3s all;
           &:hover {
-            text-decoration: underline;
+            color: $surfiegreen;
           }
-        }
-        &::before {
-          content: "\276F";
-          padding-right: 6px;
-          color: white;
+          &::before {
+            content: "\276F";
+            padding-right: 6px;
+            color: white;
+          }
         }
       }
     }
