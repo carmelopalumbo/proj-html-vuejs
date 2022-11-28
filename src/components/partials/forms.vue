@@ -174,7 +174,7 @@ export default {
         @include button($fill: false);
         color: $surfiegreen;
         &:hover {
-          color: darken($surfiegreen, 20%);
+          color: darken($surfiegreen, 15%);
         }
       }
     }

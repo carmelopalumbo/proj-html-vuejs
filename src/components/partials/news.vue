@@ -118,6 +118,7 @@ export default {
         font-size: 1.4rem;
         margin: 200px auto;
         width: 80%;
+        cursor: pointer;
       }
       p {
         font-size: 0.9rem;

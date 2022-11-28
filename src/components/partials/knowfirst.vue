@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="knowfirst">
     <div class="container h-100 d-flex align-items-center">
-      <div class="row">
+      <div class="row ms-4">
         <div class="col offset-1">
           <h6>NEWSLETTER</h6>
           <h2 class="py-4"><strong>Know</strong> First</h2>
@@ -18,15 +18,15 @@ export default {
         </div>
       </div>
 
-      <div class="row">
+      <div class="row ms-5">
         <div class="col-12">
-          <input type="text" class="form-control m-auto" placeholder="Name" />
+          <input type="text" class="form-control" placeholder="Name" />
         </div>
         <div class="col-12 py-4">
-          <input type="text" class="form-control m-auto" placeholder="Email" />
+          <input type="text" class="form-control" placeholder="Email" />
         </div>
         <div class="col-12">
-          <button class="btn m-auto d-block">SUBSCRIBE</button>
+          <button class="btn">SUBSCRIBE</button>
         </div>
       </div>
     </div>
