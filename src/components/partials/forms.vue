@@ -123,7 +123,7 @@ export default {
           box-shadow: 0 0 10px $surfiegreen;
         }
         &::placeholder {
-          color: $midgray;
+          color: lighten($midgray, 20%);
         }
       }
 
