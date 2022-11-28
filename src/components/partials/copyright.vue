@@ -9,12 +9,12 @@ export default {
   <div class="copyright">
     <div class="container h-100 pt-2">
       <div class="row justify-content-between d-flex h-100 align-items-center">
-        <div class="col">
+        <div class="col d-none d-xl-block">
           <p>Enjoy the low price. We are tracking any intention of piracy.</p>
         </div>
-        <div class="col text-end">
+        <div class="col text-center text-xl-end">
           <p>
-            @2022 NEXGEN is Proudly Poweered by
+            @2022 NEXGEN is Proudly Powered by
             <strong class="mx-1">Carmelo Palumbo</strong>.
           </p>
         </div>

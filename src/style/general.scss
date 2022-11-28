@@ -12,6 +12,7 @@
 
 body { font-family: "Lato", sans-serif};
 
+// cursor default for all titles
 h1,
 h2,
 h3,
@@ -19,4 +20,11 @@ h4,
 h5,
 h6{
     cursor: default;
+}
+
+// min width for all template
+header,
+main,
+footer{
+    min-width: 530px;
 }

@@ -8,12 +8,12 @@ export default {
   <!-- 1 header component position fixed -->
   <div class="openhours">
     <div class="container h-100">
-      <div class="row align-items-center h-100">
+      <div class="row align-items-center h-100 text-center text-lg-start">
         <div class="col">
           <i class="fa-solid fa-clock"></i>
           <span class="ms-2">Open Hours: Mon - Sat - 9:00 - 18:00</span>
         </div>
-        <div class="col text-center">
+        <div class="col text-center d-none d-xl-inline-block">
           <i class="fa-solid fa-phone"></i>
           <span class="ms-2">+1 (305) 1234-5678</span>
           <i class="fa-solid fa-envelope ms-4"></i>

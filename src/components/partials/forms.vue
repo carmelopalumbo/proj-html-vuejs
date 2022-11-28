@@ -6,7 +6,7 @@ export default {
 
 <template>
   <!-- 7 main component -->
-  <div class="forms">
+  <div class="forms d-none d-xl-block">
     <!-- container form -->
     <div class="container d-flex h-100 align-items-center">
       <div class="row me-5">

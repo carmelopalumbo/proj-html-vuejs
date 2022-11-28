@@ -9,7 +9,7 @@ export default {
   <div class="news">
     <div class="container h-100 d-flex flex-column justify-content-center">
       <div class="row">
-        <div class="col">
+        <div class="col text-center text-xl-start">
           <h6>OUR EDITORIAL CONTENT</h6>
           <h2 class="py-4">LATEST <strong>NEWS</strong></h2>
           <div class="d-flex justify-content-between">
@@ -17,13 +17,13 @@ export default {
               Every week we publish content about what is best in the business
               world.
             </p>
-            <button class="btn">SEE ALL</button>
+            <button class="btn d-none d-lg-inline-block">SEE ALL</button>
           </div>
         </div>
       </div>
-      <div class="row py-5">
-        <div class="col-4">
-          <div class="hover-box-1">
+      <div class="row py-5 d-flex flex-column flex-xl-row">
+        <div class="col-4 offset-1 offset-xl-0">
+          <div class="hover-box-1 my-3 my-xl-0">
             <p class="pt-3">
               <i class="fa-regular fa-user me-1"></i>
               Diana Ross
@@ -34,8 +34,8 @@ export default {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="col-4">
-          <div class="hover-box-2">
+        <div class="col-4 offset-1 offset-xl-0">
+          <div class="hover-box-2 my-3 my-xl-0">
             <p class="pt-3">
               <i class="fa-regular fa-user me-1"></i>
               Bruno Mars
@@ -46,8 +46,8 @@ export default {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="col-4">
-          <div class="hover-box-3">
+        <div class="col-4 offset-1 offset-xl-0">
+          <div class="hover-box-3 my-3 my-xl-0">
             <p class="pt-3">
               <i class="fa-regular fa-user me-1"></i>
               Tina Turner
@@ -176,6 +176,13 @@ export default {
         filter: blur(3px) brightness(0.5);
       }
     }
+  }
+}
+
+// media query
+@media (max-width: 1199px) {
+  .news {
+    height: 1700px;
   }
 }
 </style>

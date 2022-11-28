@@ -25,7 +25,7 @@ export default {
       </div>
       <div class="row">
         <div class="col">
-          <ul class="d-flex">
+          <ul class="d-flex flex-column flex-xl-row">
             <li
               v-for="(result, index) in store.results"
               :key="index"
@@ -59,6 +59,7 @@ export default {
     bottom: 0px;
     left: 0px;
     filter: brightness(0.6);
+    height: 100%;
   }
   .container {
     h6 {
@@ -103,4 +104,17 @@ export default {
   }
 }
 //overlay with brightness
+
+// media query
+@media (max-width: 1199px) {
+  .results {
+    height: 750px;
+    li {
+      margin: 10px 0;
+    }
+    h6 {
+      margin: 20px 0;
+    }
+  }
+}
 </style>

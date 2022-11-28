@@ -15,7 +15,7 @@ export default {
   <!-- 2 header component -->
   <div class="menujumbo">
     <div class="container h-100">
-      <div class="row d-flex pt-3">
+      <div class="row d-flex pt-3 justify-content-center">
         <div class="col-4 logo d-flex ms-3">
           <p class="me-2">N E X</p>
           <p>G E N</p>
@@ -23,10 +23,14 @@ export default {
 
         <div class="col-auto menu">
           <ul>
-            <li v-for="(link, index) in store.menu" :key="index">
+            <li
+              v-for="(link, index) in store.menu"
+              :key="index"
+              class="d-none d-xl-inline-block"
+            >
               <a href="#">{{ link }}</a>
             </li>
-            <li>
+            <li class="d-none d-xl-inline-block">
               <a href="#"><i class="fa-regular fa-user mx-3"></i></a>
             </li>
             <li>
@@ -68,6 +72,7 @@ export default {
     height: 900px;
     background-image: url("../../assets/img/bg-2.jpg");
     background-size: cover;
+    background-position: center;
     position: absolute;
     top: 50px;
     right: 0px;

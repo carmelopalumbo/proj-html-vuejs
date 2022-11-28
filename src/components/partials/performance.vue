@@ -21,7 +21,7 @@ export default {
           </p>
         </div>
       </div>
-      <div class="row video text-center align-items-center">
+      <div class="row video text-center align-items-center d-none d-xl-flex">
         <i class="fa-solid fa-play"></i>
         <i class="fa-solid fa-play"></i>
       </div>
@@ -78,6 +78,13 @@ export default {
         left: 0;
       }
     }
+  }
+}
+
+// media query
+@media (max-width: 770px) {
+  .performance {
+    height: 600px;
   }
 }
 </style>

@@ -30,7 +30,7 @@ export default {
           </p>
         </div>
         <div
-          class="col-6 my-4"
+          class="col-6 my-4 cards"
           v-for="(card, index) in store.team"
           :key="index"
         >
@@ -38,7 +38,7 @@ export default {
         </div>
       </div>
 
-      <div class="row pres-speech mt-5">
+      <div class="row pres-speech mt-5 d-none d-xl-flex">
         <div class="col">
           <h3 class="pb-4">President Speech</h3>
           <p class="py-2">
@@ -117,6 +117,16 @@ export default {
         }
       }
     }
+  }
+}
+
+// media query
+@media (max-width: 770px) {
+  .team {
+    height: 450px;
+  }
+  .cards {
+    display: none;
   }
 }
 </style>

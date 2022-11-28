@@ -59,7 +59,7 @@ export default {
           </ul>
         </div>
         <!-- services -->
-        <div class="col">
+        <div class="col d-none d-xl-block">
           <h4 class="py-2">Services</h4>
           <ul>
             <li
@@ -72,7 +72,7 @@ export default {
           </ul>
         </div>
         <!-- support -->
-        <div class="col">
+        <div class="col d-none d-xl-block">
           <h4 class="py-2">Support</h4>
           <ul>
             <li
