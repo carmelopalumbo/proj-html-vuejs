@@ -15,6 +15,7 @@ export default {
 </script>
 
 <template>
+  <!-- cards template in services component -->
   <div class="cp-card">
     <div class="icons d-flex justify-content-between">
       <img :src="getPathImage(card.icon)" :alt="card.icon" class="pb-1" />

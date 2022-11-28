@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+  <!-- 3 main component -->
   <div class="services">
     <div class="container h-100 d-flex flex-column justify-content-center">
       <!-- titles -->

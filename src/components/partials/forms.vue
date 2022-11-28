@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 7 main component -->
   <div class="forms">
     <!-- container form -->
     <div class="container d-flex h-100 align-items-center">
@@ -73,7 +74,7 @@ export default {
             <span>Main Avenue, 987</span>
           </div>
 
-          <button class="btn mt-1">VIEW MAP</button>
+          <button class="btn mt-2">VIEW MAP</button>
         </div>
       </div>
     </div>
@@ -150,6 +151,7 @@ export default {
     .contacts-box {
       h3 {
         font-weight: 700;
+        font-size: 1.5rem;
       }
       p {
         font-weight: 100;

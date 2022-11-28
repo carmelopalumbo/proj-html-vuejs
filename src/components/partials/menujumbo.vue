@@ -12,6 +12,7 @@ export default {
 </script>
 
 <template>
+  <!-- 2 header component -->
   <div class="menujumbo">
     <div class="container h-100">
       <div class="row d-flex pt-3">

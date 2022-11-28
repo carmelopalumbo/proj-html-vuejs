@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 2 footer component -->
   <div class="copyright">
     <div class="container h-100 pt-2">
       <div class="row justify-content-between d-flex h-100 align-items-center">

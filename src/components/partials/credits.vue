@@ -12,6 +12,7 @@ export default {
 </script>
 
 <template>
+  <!-- 1 footer component -->
   <div class="credits">
     <div class="container d-flex h-100 align-items-center">
       <!-- logo with button -->

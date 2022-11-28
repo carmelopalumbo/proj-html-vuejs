@@ -23,13 +23,15 @@ export default {
 
 <template>
   <!-- 7 components on main -->
-  <performance />
-  <results />
-  <services />
-  <team />
-  <news />
-  <knowfirst />
-  <forms />
+  <main>
+    <performance />
+    <results />
+    <services />
+    <team />
+    <news />
+    <knowfirst />
+    <forms />
+  </main>
 </template>
 
 <style></style>

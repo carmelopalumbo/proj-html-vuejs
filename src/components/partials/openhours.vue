@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 1 header component position fixed -->
   <div class="openhours">
     <div class="container h-100">
       <div class="row align-items-center h-100">

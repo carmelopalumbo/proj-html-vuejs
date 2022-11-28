@@ -15,6 +15,7 @@ export default {
 </script>
 
 <template>
+  <!-- cards template in team component -->
   <div class="teamcard">
     <div class="container card-container">
       <div class="row">

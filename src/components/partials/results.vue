@@ -12,6 +12,7 @@ export default {
 </script>
 
 <template>
+  <!-- 2 main component -->
   <div class="results">
     <div
       class="container h-100 d-flex align-items-center justify-content-center position-relative flex-column top-box"

@@ -13,8 +13,13 @@ export default {
 </script>
 
 <template>
+  <!-- header macro component -->
   <AppHeader />
+
+  <!-- main macro component -->
   <AppMain />
+
+  <!-- footer macro component -->
   <AppFooter />
 </template>
 

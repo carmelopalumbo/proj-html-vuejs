@@ -1,5 +1,6 @@
 @use "./palette" as *;
 
+// button mixin with 2 styles: filled color or just border
 @mixin button($fill){
     @if($fill){
         background-color: $bluelagoon;
@@ -22,7 +23,7 @@
     transition: .3s all;
 }
 
-
+// background color on position absolute with opacity 0.15
 @mixin background-opacity{
     content: "";
     height: 100%;
@@ -35,6 +36,7 @@
     border-radius: 4px;
 }
 
+// mixin with styles NEXGEN logo
 @mixin logo{
     cursor: pointer;
       font-size: 1.5rem;
@@ -56,6 +58,7 @@
       }
 }
 
+// mixin with icon styles
 @mixin icons{
   width: 35px;
   height: 35px;

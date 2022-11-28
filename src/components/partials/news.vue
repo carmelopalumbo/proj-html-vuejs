@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 5 main component -->
   <div class="news">
     <div class="container h-100 d-flex flex-column justify-content-center">
       <div class="row">

@@ -22,6 +22,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+// padding top for openhours in position fixed
 header {
   padding-top: 50px;
 }

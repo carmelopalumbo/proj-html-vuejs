@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+  <!-- 4 main component -->
   <div class="team">
     <div class="container h-100 d-flex align-items-center">
       <div class="row">

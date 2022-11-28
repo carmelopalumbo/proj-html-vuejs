@@ -11,8 +11,11 @@ export default {
 </script>
 
 <template>
-  <credits />
-  <copyright />
+  <!-- 2 components -->
+  <footer>
+    <credits />
+    <copyright />
+  </footer>
 </template>
 
 <style></style>

@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 1 main component -->
   <div class="performance">
     <div class="container h-100 d-flex justify-content-center flex-column">
       <div class="row flex-column text-center mt-5">

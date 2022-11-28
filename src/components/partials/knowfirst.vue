@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- 6 main component -->
   <div class="knowfirst">
     <div class="container h-100 d-flex align-items-center">
       <div class="row ms-4">

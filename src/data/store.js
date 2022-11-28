@@ -1,8 +1,10 @@
 import { reactive } from 'vue'
 
 export const store = reactive({
+    // first menu in jumbotron
     menu: ['HOME', 'ABOUT','SERVICES','TEAM','BLOG'],
 
+    // data in results component
     results: [
         {
             number: 128,
@@ -22,6 +24,7 @@ export const store = reactive({
         },
     ],
 
+    // data for services cards
     services: [
         {
             icon: 'computer.svg',
@@ -55,6 +58,7 @@ export const store = reactive({
         },
     ],
 
+    // data for team cards
     team: [
         {
             image: 'team-1.jpg',
@@ -78,6 +82,7 @@ export const store = reactive({
         }
     ],
 
+    // obj with 3 array for footer menu
     footerMenu: {
         about: ['The Company', 'Institutional', 'Social & Events', 'Innovation', 'Environment', 'Technology'],
 
